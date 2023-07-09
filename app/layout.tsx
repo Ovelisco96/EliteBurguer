@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import './globals.css'
 import { Inter } from 'next/font/google'
-import Navigate from '@/components/Navigate'
+import StartApp from '@/components/StartApp'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,8 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navigate />
+      <body className={`${inter.className} h-screen`}>
         {children}
       </body>
 
