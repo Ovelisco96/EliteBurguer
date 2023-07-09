@@ -8,7 +8,7 @@ const Register = () => {
             initial={{x: '-420px'}}
             transition={{
                 type: "spring",  
-                stiffness: 200,  
+                stiffness: 80,  
                 damping: 10,
                 duration: 2.2  
               }}
@@ -18,7 +18,7 @@ const Register = () => {
              initial={{x: '420px'}}
              transition={{
                 type: "spring",  
-                stiffness: 200,  
+                stiffness: 80,  
                 damping: 10,
                 duration: 2.2  
               }}
